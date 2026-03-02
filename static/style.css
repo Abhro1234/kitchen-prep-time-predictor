@@ -1,0 +1,119 @@
+body {
+
+    font-family: Arial;
+
+    background: #f8f8f8;
+
+    margin: 0;
+
+}
+
+header {
+
+    background: #e23744;
+
+    color: white;
+
+    padding: 15px;
+
+}
+
+.container {
+
+    padding: 20px;
+
+}
+
+.input-card {
+
+    background: white;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+}
+
+.input-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 15px;
+
+    margin-bottom: 15px;
+
+}
+
+.input-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.input-group label {
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+
+}
+
+.input-group input,
+.input-group select {
+
+    padding: 8px;
+
+    border-radius: 6px;
+
+    border: 1px solid #ccc;
+
+}
+
+button {
+
+    background: #e23744;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background: #c92d39;
+
+}
+
+.dashboard-row {
+
+    display: grid;
+
+    grid-template-columns: 1fr 2fr;
+
+    gap: 20px;
+
+}
+
+.results-card,
+.chart-card {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+}
